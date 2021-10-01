@@ -75,12 +75,9 @@ header {
     margin: 0 auto;
     margin-top: 1%;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: flex-end;
-
-
-    margin-bottom:  5%;
+    align-items: baseline;
 }
 .logo {
     width: 20%;
@@ -97,6 +94,9 @@ header {
     font-size: 14px;
     color: #000;
     font-weight: bold;
+}
+.header-img {
+    margin: 5% 0;
 }
 
 

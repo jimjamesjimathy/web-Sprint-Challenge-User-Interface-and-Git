@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -30,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    background-color: black;
 }
 ol, ul {
 	list-style: none;
@@ -68,12 +68,16 @@ p {
 a {
     text-decoration: none;
 }
+section {
+    width: 80%;
+    margin: 0 auto;
+}
 /* Start styling for <header> and <nav> */
 
 header {
     width: 800px;
     margin: 0 auto;
-    margin-top: 1%;
+    padding-top: 3%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -107,8 +111,9 @@ header {
 
 
 .container {
-    width: 800px;
+    width: 70vw;
     margin: 0 auto;
+    background-color: #fff;
 }
 
 .top-content {
@@ -185,13 +190,15 @@ header {
 
 
 .bottom-content {
+    margin: 0 auto;
     display: flex;
-    margin: 0 2% 20px;
+    flex-flow: row nowrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    padding: 2% 4% 3% 0;
 }
 
 .bottom-content .text-container:last-child {
@@ -199,8 +206,9 @@ header {
 }
 
 footer {
-    width: 100%;
+    width: 80%;
     background: black;
+    margin: 0 auto;
 }
 
 footer nav {
@@ -215,4 +223,26 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* End style for index.html */
+
+
+
+/* Start styling for about.html */
+
+.about-page {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.about-text {
+    text-align: left;
+    width: 100%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+.abBoxes {
+    width: 45%;
 }

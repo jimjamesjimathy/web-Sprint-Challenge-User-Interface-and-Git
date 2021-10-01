@@ -106,7 +106,7 @@ header {
     align-items: flex-end;
     font-size: 14px;
 }
-nav a {
+.links a {
     padding: 0 2.59rem;
     font-size: 14px;
     color: #000;
@@ -164,7 +164,7 @@ nav a {
     align-items: center;
     justify-content: center;
 }
-/* Colors for the box backgrounds */
+    /* Colors for the box backgrounds */
 .b1 {
     background: teal;
 }
@@ -243,12 +243,6 @@ footer nav a {
     margin-bottom: 3%;
     border-bottom: 1px dashed black;
 }
-.bottom-about-text {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 2% 2%;
-    margin-bottom: 3%;
-}
 .about-wrap {
     width: 96%;
     margin: 0 auto;
@@ -280,5 +274,12 @@ footer nav a {
 .ab4 {
     width: 47%;
     border-bottom: 1px dashed black;
-    margin-bottom: 9%;
+    margin-bottom: 7%;
+}
+
+.bottom-about-text {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 2% 2%;
+    margin-bottom: 3%;
 }
